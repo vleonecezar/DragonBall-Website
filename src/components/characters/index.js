@@ -2,9 +2,13 @@ import React, { useState, useEffect } from 'react'
 import './styles.css'
 
 async function getCharacters() {
-    let response = await fetch('http://localhost:3000/api/characters.json')
-    let data = await response.json()
-    return data
+    try {
+        let response = await fetch('http://localhost:3000/api/characters.json')
+        let data = await response.json()
+        return data
+    } catch (error) {
+        console.error(error)
+    }
 }
 
 const Characters = () => {
@@ -14,11 +18,11 @@ const Characters = () => {
     useEffect(() => {
         getCharacters().then(data => {
             setCharacters(
-                data['characters'].map(char => {
+                data['characters'].map(({ id, image, name }) => {
                     return(
-                        <div key={char.id} className='character'>
-                            <img src={char.image} alt={`foto de ${char.name}`}/>
-                            <p>{char.name}</p>
+                        <div key={id} className='character'>
+                            <img src={image} alt={`foto de ${name}`}/>
+                            <p>{name}</p>
                         </div>
                     )
                 })
