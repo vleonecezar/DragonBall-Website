@@ -1,0 +1,52 @@
+.author {
+    background: url(../../assets/images/information_background_image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 510px;
+    margin-top: 80px;
+}
+
+.author h2 {
+    font-family: Barlow, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 32px;
+    margin-bottom: 35px;
+}
+
+.author h3 {
+    font-family: Barlow, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.author img {
+    width: 150px;
+    border-radius: 10%;
+}
+
+.author p {
+    max-width: 800px;
+    font-family: Barlow, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: justify;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 750px) {
+    .author {
+        margin-top: 50px;
+    }
+    
+    .author p {
+        width: 300px;
+    }
+  }

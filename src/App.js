@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from 'react'
+import './App.css'
+import header_logo from './assets/images/dragonballz_logo.png'
+import Routes from './routes'
+import { Link, BrowserRouter as Router } from 'react-router-dom'
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    return (
+        <Fragment>
+            <Router>
+            <header>
+                <Link to='/'><img src={header_logo} alt='logo de Dragon Ball Z'/></Link>
+                <ul className='navbar'>
+                    <li><Link to='/sobre'>Sobre</Link></li>
+                    <li><Link to='/personagens'>Principais Personagens</Link></li>
+                    <li><Link to='/autor'>Autor</Link></li>
+                </ul>
+            </header>
+            <Routes/>
+            <footer>
+                <p>Desenvolvido por Vitor Cezar.<br/>(Créditos à Toei Animation)</p>
+            </footer>
+            </Router> 
+        </Fragment>
+    )
 }
 
-export default App;
+export default App

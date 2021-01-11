@@ -1,0 +1,17 @@
+.pagenotfound {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pagenotfound h1 {
+    margin-top: 80px;
+    font-family: Barlow, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+.pagenotfound img {
+    width: 300px;
+    margin: 20px 0 50px;
+}
