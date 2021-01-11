@@ -5,7 +5,7 @@ import './styles.css'
 const Author = () => {
     return (
         <div className='author'>
-            <h2>Author</h2>
+            <h2>Autor</h2>
             <img src={author_image} alt='Foto do autor, Akira Toriyama'/>
             <h3>Akira Toriyama</h3>
             <p>
