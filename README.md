@@ -29,13 +29,13 @@ Foi praticado a criação de components, screens, navegação sem reload e rotas
 ### Web
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="pagina sobre" src="./src/assets/readme/about-screen.jpeg" width="600px">
+  <img alt="pagina sobre" src="./src/assets/readme/about-screen.jpeg" width="800px">
 </p>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="pagina personagens" src="./src/assets/readme/characters-screen.jpeg" width="600px">
+  <img alt="pagina personagens" src="./src/assets/readme/characters-screen.jpeg" width="800px">
 </p>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="pagina autor" src="./src/assets/readme/author_screen.jpeg" width="600px">
+  <img alt="pagina autor" src="./src/assets/readme/author_screen.jpeg" width="800px">
 </p>
