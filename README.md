@@ -13,6 +13,24 @@ Foi praticado a criação de components, screens, navegação sem reload e rotas
 - <code>CSS</code>
 - <code>JavaScript</code>
 
+## 🚀 Instalação e execução
+
+#### Clonando repositório:
+
+<pre>$ git clone https://github.com/vleonecezar/dragonball-fansite</pre>
+
+#### Instalando:
+
+<pre>$ npm install</pre>
+
+#### Desenvolvimento:
+
+<pre>$ npm start</pre>
+
+#### Build:
+
+<pre>$ npm run build</pre>
+
 ## 💻 Screens 📱
 <div align="center">
   
