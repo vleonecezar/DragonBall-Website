@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/dragonball-fansite/static/css/main.5717a9e4.chunk.css",
+    "main.js": "/dragonball-fansite/static/js/main.317822a3.chunk.js",
+    "main.js.map": "/dragonball-fansite/static/js/main.317822a3.chunk.js.map",
+    "runtime-main.js": "/dragonball-fansite/static/js/runtime-main.b376342a.js",
+    "runtime-main.js.map": "/dragonball-fansite/static/js/runtime-main.b376342a.js.map",
+    "static/js/2.6b2c98c9.chunk.js": "/dragonball-fansite/static/js/2.6b2c98c9.chunk.js",
+    "static/js/2.6b2c98c9.chunk.js.map": "/dragonball-fansite/static/js/2.6b2c98c9.chunk.js.map",
+    "index.html": "/dragonball-fansite/index.html",
+    "static/css/main.5717a9e4.chunk.css.map": "/dragonball-fansite/static/css/main.5717a9e4.chunk.css.map",
+    "static/js/2.6b2c98c9.chunk.js.LICENSE.txt": "/dragonball-fansite/static/js/2.6b2c98c9.chunk.js.LICENSE.txt",
+    "static/media/akiratoriyama_foto.fc3e6228.png": "/dragonball-fansite/static/media/akiratoriyama_foto.fc3e6228.png",
+    "static/media/dragonballz_logo.70765a46.png": "/dragonball-fansite/static/media/dragonballz_logo.70765a46.png",
+    "static/media/App.css": "/dragonball-fansite/static/media/header_background2.5be11d16.png",
+    "static/media/styles.css": "/dragonball-fansite/static/media/information_background_image.e27f6ba6.png",
+    "static/media/pagenotfound_image.e76264d0.png": "/dragonball-fansite/static/media/pagenotfound_image.e76264d0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b376342a.js",
+    "static/js/2.6b2c98c9.chunk.js",
+    "static/css/main.5717a9e4.chunk.css",
+    "static/js/main.317822a3.chunk.js"
+  ]
+}
