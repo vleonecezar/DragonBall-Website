@@ -23,7 +23,7 @@ const Characters = () => {
           return (
             <div key={id} className="character">
               <img src={image} alt={`foto de ${name}`} />
-              <p>{name} teste</p>
+              <p>{name}</p>
             </div>
           );
         })
